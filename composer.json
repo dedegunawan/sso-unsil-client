@@ -1,0 +1,21 @@
+{
+    "name": "dedegunawan/sso-unsil-client",
+    "description": "SSO UNSIL Client",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dede Gunawan",
+            "email": "dede@unsil.ac.id"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "DedeGunawan\\SsoUnsilClient\\": "src/",
+            "DedeGunawan\\SsoUnsilClient\\Tests\\": "tests/phpunit/"
+        }
+    }
+}
